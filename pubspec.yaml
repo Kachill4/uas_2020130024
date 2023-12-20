@@ -1,0 +1,72 @@
+name: uas_2020130024
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1
+  provider: ^5.0.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true 
+
+  assets:
+    - assets/images/
+
+  fonts: 
+    - family: Luckiest Guy
+      fonts: 
+        - asset: assets/fonts/LuckiestGuyRegular.ttf
+          weight: 400
+    - family: Mada
+      fonts: 
+        - asset: assets/fonts/MadaRegular.ttf
+          weight: 400
+    - family: Holtwood One SC
+      fonts: 
+        - asset: assets/fonts/HoltwoodOneSC.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Londrina Solid
+      fonts: 
+        - asset: assets/fonts/LondrinaSolidRegular.ttf
+          weight: 400
+    - family: Lemon
+      fonts: 
+        - asset: assets/fonts/LemonRegular.ttf
+          weight: 400
+    - family: M PLUS 1
+      fonts: 
+        - asset: assets/fonts/MPLUS1Regular.ttf
+          weight: 400
+    - family: Marko One
+      fonts: 
+        - asset: assets/fonts/MarkoOneRegular.ttf
+          weight: 400
+    - family: Kanit
+      fonts: 
+        - asset: assets/fonts/KanitRegular.ttf
+          weight: 400
+    - family: Days One
+      fonts: 
+        - asset: assets/fonts/DaysOneRegular.ttf
+          weight: 400
+    - family: Mochiy Pop One
+      fonts: 
+        - asset: assets/fonts/MochiyPopOneRegular.ttf
+          weight: 400
